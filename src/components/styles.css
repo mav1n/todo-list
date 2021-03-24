@@ -1,0 +1,70 @@
+.todo-list-wrapper {
+    color: #734f96;
+}
+
+.todo-list-wrapper h4 {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0 10px 0;
+}
+
+.add-todo-wrapper {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.add-todo {
+    padding: 8px;
+    border: 2px solid #734f96;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+    flex: 8;
+}
+
+.add-todo-button {
+    padding: 10px 20px;
+    background-color: #734f96;
+    color: #fff;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    flex: 1;
+}
+
+.todo-item-wrapper {
+    display: flex;
+    padding: 5px 0;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    color: #734f96;
+    font-size: 14px;
+}
+
+.checkbox-wrapper {
+    flex: 1;
+}
+
+.todo-text-wrapper {
+    flex: 5;
+}
+
+.edit-todo-input {
+    padding: 8px;
+    border: 1px solid #734f96;
+    outline: none;
+    width: 200px;
+    border-radius: 1px;
+}
+
+.todo-item-wrapper i {
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.date-wrapper {
+    font-size: 12px;
+}
